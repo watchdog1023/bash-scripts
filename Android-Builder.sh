@@ -1,7 +1,7 @@
 if [[ ${#BASH_ARGV[@]} -lt 3 ]]; then
     echo Usage is android-builder [git username] [git email] [android branch] [dir where download source will go]
 else
-  apt-get update
+	apt-get update
 	apt-get install git-core python gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip openjdk-8-jdk libx11-dev:i386 ia32-libs x11proto-core-dev libx11-dev lib32readline5-dev lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc -y
 	update-alternatives --config java
 	update-alternatives --config javac
