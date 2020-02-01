@@ -109,4 +109,57 @@ if [  -e /usr/bin/pip3 ]; then
 	pip3 install pyglet
 	pip3 install Pandas
 	pip3 install opencv
+elif [ -e /home/gitpod/.pyenv/shims/pip3 ]; then
+	pip3 install pycryto
+	pip3 install --upgrade tensorflow
+	pip3 install tflearn
+	pip3 install Scrapy
+	pip3 install wxPython
+	pip3 install Pillow
+	pip3 install SQLAlchemy
+	pip3 install BeautifulSoup
+	pip3 install Twisted
+	pip3 install NumPy
+	pip3 install SciPy
+	pip3 install matplotlib
+	pip3 install Pygame
+	pip3 install Pyglet
+	pip3 install pyQT
+	pip3 install pyGtk
+	pip3 install Scapy
+	pip3 install pywin32
+	pip3 install nltk
+	pip3 install nose
+	pip3 install SymPy
+	pip3 install IPython
+	pip3 install pyUSB
+	#pip3 install pyGoogle
+	pip3 install USPP
+	pip3 install pySerial
+	pip3 install geoname.py
+	pip3 install VideoCapture
+	pip3 install Pygame
+	pip3 install Pyglet
+	pip3 install PySoy
+	pip3 install Zappa
+	pip3 install pyOpenGL
+	pip3 install FMOD
+	pip3 install pyS60
+	pip3 install VPython
+	pip3 install Sanic
+	pip3 install uvloop
+	pip3 install asyncpg
+	pip3 install boto3
+	pip3 install gym
+	pip3 install universe
+	pip3 install Bokeh
+	pip3 install Blaze
+	pip3 install arrow
+	pip3 install hug
+	pip3 install FlaskFabric
+	pip3 install flask
+	pip3 install nose
+	pip3 install pyglet
+	pip3 install Pandas
+	pip3 install opencv
 fi
