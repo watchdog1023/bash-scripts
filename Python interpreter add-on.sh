@@ -1,6 +1,6 @@
 #!/bin/sh
 #Python 2
-if [  -e /usr/bin/pip2 ]; then;
+if [  -e /usr/bin/pip2 ]; then
 	pip2 install --upgrade pip
 	pip2 install opencv
 	pip2 install Scrapy
@@ -56,7 +56,7 @@ if [  -e /usr/bin/pip2 ]; then;
 	pip2 install pycryto
 fi
 #Python 3
-if [  -e /usr/bin/pip3 ]; then;
+if [  -e /usr/bin/pip3 ]; then
 	pip3 install pycryto
 	pip3 install --upgrade tensorflow
 	pip3 install tflearn
